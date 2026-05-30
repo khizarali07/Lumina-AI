@@ -1,15 +1,23 @@
 # Lumina AI
 
-Welcome to **Lumina AI**, a cutting-edge platform combining a powerful FastAPI backend with a sleek Next.js frontend. 
+Welcome to **Lumina AI**, a cutting-edge platform combining a powerful FastAPI backend with a sleek Next.js frontend.
 
-## Project Architecture
+## 🚀 Enterprise & Business Value
+Lumina AI is designed for high scalability and rapid AI deployment in enterprise environments. By decoupling the heavy AI processing layer from the user interface, it ensures a frictionless, responsive client experience while handling complex machine learning tasks asynchronously.
 
-This monorepo is divided into two primary services:
+## 💡 Core Capabilities
+- **High-Performance AI Serving**: Asynchronous AI model endpoints powered by FastAPI.
+- **Modern User Experience**: A highly reactive, SEO-optimized frontend built on Next.js.
+- **Scalable Monorepo**: Streamlined developer workflow allowing independent deployment of frontend and backend services.
 
-- **`frontend/`**: The user interface, built with Next.js, React, and modern web technologies. 
-- **`backend/`**: The core AI engine and API, built with Python and FastAPI.
+## Architecture Breakdown
 
-## Getting Started
+Lumina AI leverages a decoupled, modern architecture to separate concerns and ensure scalable performance:
+
+- **Frontend Interface (`frontend/`)**: Built with **Next.js** and **React**, it handles the client-side user experience, routing, and UI rendering.
+- **Backend AI Engine (`backend/`)**: Built with **Python** and **FastAPI**, it serves as the core AI processing unit, providing RESTful endpoints for the frontend to consume.
+
+## Setup Instructions
 
 ### Prerequisites
 - Node.js & npm (for the frontend)
