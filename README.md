@@ -10,7 +10,6 @@ Lumina AI is designed for high scalability and rapid AI deployment in enterprise
 - **Modern User Experience**: A highly reactive, SEO-optimized frontend built on Next.js.
 - **Scalable Monorepo**: Streamlined developer workflow allowing independent deployment of frontend and backend services.
 
-
 ## Architecture Breakdown
 
 Lumina AI leverages a decoupled, modern architecture to separate concerns and ensure scalable performance:
